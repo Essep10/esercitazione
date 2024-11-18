@@ -18,11 +18,9 @@ nav{
     display:inline-block
 }
 .nav-logo{
-   width: 19%;
    font-size: 30px;
 }
 .nav-links{
-    width: 80%;
     text-align: right;
     font-size: 22px;
 }
@@ -32,4 +30,9 @@ a{
 }
 .nav-links a{
     margin-inline: 15px;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
