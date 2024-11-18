@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    background-color: aquamarine;
+    height: 100vh;
+    margin: auto;
+}
+nav{
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+.nav-logo, .nav-links{
+    display:inline-block
+}
+.nav-logo{
+   width: 19%;
+   font-size: 30px;
+}
+.nav-links{
+    width: 80%;
+    text-align: right;
+    font-size: 22px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav-links a{
+    margin-inline: 15px;
+}
