@@ -1,6 +1,8 @@
 :root{
     --main-color:#ffb411;
     --main-color: #1e1c2a;
+    --big-font: 4rem;
+    --h2-font: 2.24rem;
 }
 *{
     margin: 0;
@@ -26,7 +28,7 @@ nav{
 }
 .nav-logo{
     font-size: 1.2rem;
-    font-weight: 600px;
+    font-weight: 600;
 }
 .nav-logo a{
     color: #ffb411;
@@ -48,4 +50,64 @@ nav{
 }
 .nav-links ul li a:hover{
     color: #ffb411;
+}
+
+.home{
+    display: grid;
+    width: 100%;
+    align-items: center;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 100vh;
+}
+.home-right {
+   zoom: 60%;
+}
+.home-left h1{
+    font-size: var(--big-font);
+    color: #ffb411;
+}
+.home-left h2{
+    font-size: var(--h2-font);
+    margin: 1rem 0 1rem;
+}
+.home-left a{
+    text-decoration: none;
+    background-color: #ffb411;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+.nav-body{
+    background-color: whitesmoke;
+}
+.about{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 1.5rem;
+     align-items: center;
+     padding: 90px 20px;
+}
+.about-left img{
+    max-width: 80%;
+    border-radius: 0.5rem;
+}
+.about-right span{
+    color: #ffb411;
+    font-weight: 500;
+}
+.about-right h2{
+    font-size: var(--h2-font);
+}
+.about-right p{
+    margin: 0.8rem 0 1.8rem;
+}
+.about-right a{
+    text-decoration: none;
+    background-color: #ffb411;
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
 }
