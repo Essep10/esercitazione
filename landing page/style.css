@@ -11,6 +11,8 @@
     font-family: "Poppins", sans-serif;
 }
 
+/*--------------------------------------------------nav section-----------------------------------*/
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -113,4 +115,70 @@ nav{
     display: inline-block;
     padding: 10px 20px;
     border-radius: 0.5rem;
+}
+
+/*------------------------------------------------------menu section---------------------------------------*/
+
+.menu{
+    padding: 50px 10%;
+}
+.menu-top span{
+    color: #ffb411;
+    font-weight: 500;
+
+}
+.menu-top h2{
+    font-size: var(--h2-font);
+}
+.menu-top{
+    text-align: center;
+}
+
+.menu-bottom{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.menu-card{
+    position: relative;
+    margin-top: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgb(4 64 54 / 10%);
+    padding: 10px;
+}
+.menu-card i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    background:#ffb411;
+    border-radius: 0 0.5rem 0 0.5rem;
+    padding: 5px 8px;
+}
+.menu-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.menu-img{
+    width: 200px;
+    height: 200px;
+}
+.menu-bottom h2{
+    font-size: 1.2rem;
+}
+.menu-bottom h3{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 4px 0 10px;
+}
+.menu-bottom span{
+    font-size: var(--p-font);
+    font-weight: 500;
 }
